@@ -1,0 +1,3 @@
+ir al archivo de configuración de la versión de PHP que estes usando y modificar:
+
+allow_url_include = On (en off de manera predeterminada)

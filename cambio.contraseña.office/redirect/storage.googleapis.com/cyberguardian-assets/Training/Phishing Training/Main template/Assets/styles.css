@@ -1,0 +1,394 @@
+<style rel="css">
+    
+    html { 
+    
+        scroll-behavior: smooth;
+        border: none;
+        margin: 0;
+    
+    }
+    
+    body {
+        
+        border: none;
+        margin: 0;
+    }
+
+    .button-row {
+
+        display: flex; 
+        flex-direction: row; 
+        justify-content: left;
+
+    }
+
+    .mobile-only{
+
+
+
+    }
+
+.main-text-down{
+    background-color: #b1d5fa;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-training {
+    
+    width: 220px;
+    height: auto;
+    padding-top: 50px;
+}
+    
+    .what-button {
+        
+        width: auto;
+        height: auto;
+        background-position: 85% 50%;
+        background-repeat: no-repeat;
+        transition-duration: 0.3s;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #fff;
+        color: #444444;
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        font-weight: normal;
+        padding-left: 30px;
+        padding-right: 60px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-radius: 2px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 1);
+        background-image: url(Images/angle-down-grey.svg);
+        background-size: 15px 15px;
+        
+    }
+    
+    .learn-button {
+        
+        width: auto;
+        height: auto;
+        background-color: #BC1224;
+        background-position: 90% 50%;
+        background-repeat: no-repeat;
+        transition-duration: 0.3s;   
+        color: white;
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        font-weight: normal;
+        padding-left: 30px;
+        padding-right: 70px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        background-image: url(Images/graduation-cap.svg);
+        background-size: 25px 25px;
+        
+    }
+
+    
+    button:hover{
+        
+        transform: translateY(-5px);
+        transition-duration: 0.3s;
+        
+    }
+    
+    .hero {
+        
+        width: Auto;
+        height: 1100px;
+        background-image: url(Images/main-image.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-top: 30px;
+        padding-left: 90px;
+    } 
+    
+    .start-training {
+        
+        width: 90ch;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background: #b1d5fa;
+        text-align: center;
+    }
+
+    .btn-separation{
+        margin-right: 20px;
+    }
+    
+    h1 {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        font-weight: 700;
+        font-size: 70px;
+        color: #444444; 
+        text-align: left; 
+        line-height: 40px;
+
+    }
+    
+    h2 {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        font-size: 50px;
+        font-weight: 700;
+        color: #BC1224; 
+        text-align: left;
+    }
+    
+    h3 {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        font-size: 30px;
+        font-weight: 400;
+        color: #444444; 
+        text-align: left; 
+        width: auto; 
+        line-height: 60px; 
+        padding-bottom: 30px;
+        padding-right: 90px;
+        
+    }
+    
+    p {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        font-size: 25px;
+        font-weight: regular;
+        line-height: 40px;
+        color: #444444;
+        
+        
+    }
+
+.footer {
+        
+        
+        background-color: #2e2e2e;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    
+    .footer-container {
+        
+        width: auto;
+        padding-left: 90px;
+        padding-right: 90px;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 650px) {
+        
+        
+    .button-row {
+    
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    
+        }
+    
+    .what-button {
+        
+        width: auto;
+        height: auto;
+        background-position: 85% 50%;
+        background-repeat: no-repeat;
+        transition-duration: 0.3s;
+        border-style: solid;
+        border-width: 0px;
+        border-color: #444444;
+        color: #444444;
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-radius: 2px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 1);
+        background-image: url("");
+        background-size: 15px 15px;
+        
+    }
+    
+    .learn-button {
+        
+        width: auto;
+        height: auto;
+        background-color: #BC1224;
+        background-position: 90% 50%;
+        background-repeat: no-repeat;
+        transition-duration: 0.3s;   
+        color: white;
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        text-align: left;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 30px;
+        padding-right: 70px;
+        padding-top: 15px;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        background-image: url(Images/graduation-cap.svg);
+        background-size: 25px 25px;
+        
+    }
+    
+    
+    button:hover{
+        
+        transform: translateY(-5px);
+        transition-duration: 0.3s;
+        
+    }
+    
+    .hero {
+        
+        width: auto;
+        height: 1100px;
+        background-image: url(Images/main-image.svg);
+        background-position: left;
+        background-size: auto 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+    } 
+    
+    .start-training {
+        
+        width: 80%;
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background: #b1d5fa;
+        text-align: center;
+    }
+        
+    .mobile-only {
+            
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: #b1d5fa;
+        }
+    
+    h1 {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        font-weight: 700;
+        font-size: 60px;
+        text-align: center;
+
+    }
+    
+    h2 {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    
+    h3 {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        width: auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        padding-right: 0px;
+        line-height: 45px;
+    }
+    
+    p {
+        
+        font-family: 'Poppins', Helvetica, Roboto, Arial;
+        font-size: 20px;
+        font-weight: regular;
+        line-height: 40px;
+        color: #444444;
+        text-align: center;
+        
+        
+    }
+
+    .h1-mobile-adjust{
+        margin-top: 50px;
+    }
+        
+    .footer {
+        
+        
+        background-color: #2e2e2e;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    
+    .footer-container {
+        
+        width: auto;
+        padding-left: 90px;
+        padding-right: 90px;
+        text-align: center;
+    }
+    
+    .btn-separation{
+        margin-right: 0px;
+    }
+
+    
+    .bg-frame{
+        background-color: rgb(255, 255, 255, 0.8);
+    }
+        
+}
+
+</style>
